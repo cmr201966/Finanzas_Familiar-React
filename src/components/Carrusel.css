@@ -1,0 +1,144 @@
+.carousel-container2 {
+  display: flex;
+  align-items: center;
+  width: 84%;
+  overflow: hidden;
+  position: absolute;
+  top: 48.1%;
+  left: 5%;
+  color: white;
+  box-sizing: border-box;
+  background-color: white;
+  transition: width 0.3s ease, left 0.3s ease, top 0.3s ease;
+}
+
+.carousel-track2 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-slide2 {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.nav-button2 {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 2vw;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.carousel-item2 {
+  flex: 0 0 auto;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 2.5vw;
+  width: 100px;
+  margin-left: 2%;
+}
+
+.carousel-item2 img {
+  width: 100%;
+  border-radius: 1vw;
+  transition: transform 0.2s;
+}
+
+.carousel-item2:hover img {
+  transform: scale(1.05);
+}
+
+.image-wrapper2 {
+  margin-top: 3vh;
+  width: 8vw;
+  height: 25vh;
+  border-radius: 1vw;
+  background: transparent;
+  transition: transform 0.3s, border-color 0.3s;
+  box-sizing: border-box;
+}
+
+.image-wrapper2:hover {
+  transform: scale(0.8);
+  border-color: rgb(70, 226, 122);
+}
+
+.image-wrapper2 img {
+  width: 5vw;
+  height: auto;
+  border-radius: 1vw;
+}
+
+.image-label2 {
+  font-size: 75%;
+  margin-top: 1vh;
+  font-weight: bold;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Media queries */
+
+/* Pantallas medianas */
+@media (max-width: 1024px) {
+  .carousel-container2 {
+    width: 85.5%;
+    max-width: 90%;
+    top: 50vh;
+    left: 4%;
+  }
+
+  .carousel-item2 {
+    width: 8vw;
+    margin-right: 3vw;
+  }
+
+  .image-wrapper2 {
+    width: 8.5vw;
+    height: auto;
+  }
+
+  .image-wrapper2 img {
+    width: 3vw;
+    height: auto;
+  }
+
+  .image-label2 {
+    font-size: 50%;
+  }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+  .carousel-container2 {
+    width: 90%;
+    max-width: 90%;
+    top: 45%;
+    left: 46.5%;
+    transform: translateX(-50%);
+    position: fixed;
+    height: 23%;
+  }
+
+  .carousel-item2 {
+    width: 30%;
+    margin-right: -15%;
+  }
+
+  .image-wrapper2 {
+    width: 50%;
+    height: 100%;
+    margin-top: 2%;
+  }
+
+  .image-wrapper2 img {
+    width: 60%;
+  }
+
+  .image-label2 {
+    font-size: 20%;
+    margin-right: 2%;
+  }
+}

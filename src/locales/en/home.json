@@ -1,0 +1,34 @@
+{
+  "titulo":"Family finances",
+  "frase":"Achieve your financial freedom. Start now.",
+  "salidas":"Report",
+  "notificacionesh":"Notifications",
+  "catIngresosGastos": "Income and Expense Category",
+  "cuentas": "Bank Accounts",
+  "presupuesto": "Set Budget",
+  "ingresos": "Income",
+  "gastos": "Expenses",
+  "transferencias": "Transfers",
+  "resumenGeneral": "General Summary",
+  "transferencias": "Transfers",
+  "cuentas": "Accounts",
+  "presupuesto": "Budget",
+  "informeAnual": "Monthly/Annual Report",
+  "categorias": "Income and Expense Category",
+  "spanish":"Spanish",
+  "english":"English",
+  "español":"Spanish",
+  "ingles":"English",
+  "uname":"User name",
+  "cpassword":"Change password",
+  "dinero":"Money",
+  "categoriaM":"Category",
+  "cuentasM":"Accounts",
+  "transaccionesM":"Transactions",
+  "transferenciasM":"Transfers",
+  "footer":"© Family Finances 2025. All Rights Reserved.",
+  "perfilEdit":"Profile edit"
+
+
+
+}

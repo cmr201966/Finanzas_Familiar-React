@@ -1,0 +1,82 @@
+.barra {
+  background-color: rgb(12, 155, 80);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  height: 8%;
+  position: fixed;
+  top: 0vw;
+  left: 0vw;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+ border-radius: 100%;
+  width: 2.5vw;
+  height: 2.5vw;
+  margin-left: 1vw;
+  margin-bottom: 0vw;
+}
+
+.titulo {
+  color: white;
+  /*font-size: 2.5vw;*/
+  font-size: 1.5vw;
+  font-family: "popins";
+  margin-left: 1vw;
+  margin-right: 30vw;
+}
+
+.usuario {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  margin-left: auto;
+
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(12, 155, 80); /* ícono en color verde */
+  cursor: pointer;
+}
+.puntitos-3 {
+   width: 2vw !important;
+  height: 2vw !important;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  color: white;
+}
+
+.bandera {
+  width: 24px;
+  height: 16px;
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .barra {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .logo-titulo {
+    margin-bottom: 10px;
+  }
+
+  .titulo {
+    font-size: 20px;
+  }
+}
+

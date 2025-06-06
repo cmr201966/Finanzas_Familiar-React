@@ -1,12 +1,18 @@
-import './Home.css'
+import React from 'react';
+import NavBar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Header from '../components/header';
+import Carousel from '../components/Catalogo';
+import CarouselWithNav from '../components/Carrusel';
 
-function App() {
-
+export default function HomePage() {
   return (
     <>
-      <h1>Finanzas Familiar</h1>
+      <NavBar />
+      <Footer />
+      <Header />
+      <Carousel />
+      <CarouselWithNav />
     </>
-  )
+  );
 }
-
-export default App

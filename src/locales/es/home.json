@@ -1,0 +1,35 @@
+{
+  "titulo":"Finanza Familiar",
+  "frase": "Alcanza tu libertad financiera. Empieza ahora",
+  "salidas":"Informe",
+  "notificacionesh":"Notificaciones",
+  "catIngresosGastos": "Categoria ingresos y gastos",
+  "cuentas": "Cuentas bancarias",
+  "presupuesto": "Definir presupuesto",
+  "ingresos": "Ingresos",
+  "gastos": "Gastos",
+  "transferencias": "Transferencias",
+  "resumenGeneral": "Resumen General",
+  "transferencias": "Transferencias",
+  "cuentas": "Cuentas",
+  "presupuesto": "Presupuesto",
+  "informeAnual": "Informe Mensual/Anual",
+  "categorias": "Categoría ingresos y gastos",
+  "spanish":"Español",
+  "english":"Ingles",
+  "español":"Español",
+  "ingles":"Ingles",
+  "uname":"Nombre del usuario",
+  "cpassword":"Cambiar contraseña",
+  "dinero":"Dinero",
+   "categoriaM":"Categorias",
+  "cuentasM":"Cuentas",
+  "transaccionesM":"Transacciones",
+  "transferenciasM":"Transferencias",
+  "footer":"© Finanza Familiar 2025. Todos los Derechos Reservados.",
+  "perfilEdit":"Editar perfil"
+
+
+
+
+}

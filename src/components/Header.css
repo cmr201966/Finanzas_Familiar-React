@@ -1,0 +1,80 @@
+.frase {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 10%; /* 10% de la altura de la ventana */
+  left: 10%; /* 8% del ancho de la ventana */
+  font-family: 'popins', sans-serif;
+  font-size: 20px; /* Tamaño relativo al ancho de la ventana */
+  font-weight: lighter;
+}
+
+.salidas {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 42%; /* 30% de la altura de la ventana */
+  left: 10%; /* 10% del ancho de la ventana */
+  font-family: 'popins', sans-serif;
+  font-size: 100%;
+}
+
+.notificacionesh {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 76%; /* 30% de la altura de la ventana */
+  left: 10%; /* 10% del ancho de la ventana */
+  font-family: 'popins', sans-serif;
+  font-size: 100%;
+}
+
+@media (max-width: 1024px) {
+  .frase {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family: sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+
+  .salidas {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-family: 'Italic', sans-serif;
+    font-size: 1.5vw;
+  }
+
+  .notificacionesh {
+    position: absolute;
+    left: 10%;
+    font-family: 'Italic', sans-serif;
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .frase {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    font-family: 'Popins', sans-serif;
+    font-size: 3.2vw;
+    font-weight: bold;
+  }
+
+  .salidas {
+    position: fixed;
+    top: 40%;
+    left: 10%;
+    font-family: 'Italic', sans-serif;
+    font-size: 3vw;
+  }
+
+  .notificacionesh {
+    position: fixed;
+    top: 70%;
+    left: 10%;
+    font-family: 'Italic', sans-serif;
+    font-size: 3vw;
+  }
+}
